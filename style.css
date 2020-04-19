@@ -1,0 +1,499 @@
+* {
+  box-sizing: border-box;
+}
+
+.theme_color_project-default {
+  background-color: #ffffff;
+}
+.theme_color_project-brand {
+  background-color: #0077ff;
+}
+.theme_color_project-inverse {
+  background-color: #000000;
+}
+.theme_color_project-warning {
+  background-color: #ff3333;
+}
+.theme_size_default {
+}
+
+.theme_space_default {
+}
+.theme_gap_small {
+  margin: 27px;
+}
+.grid {
+  display: grid;
+}
+.grid_col-gap_full {
+  grid-column-gap: 27px;
+}
+.grid_row-gap_full {
+  grid-row-gap: 27px;
+}
+.grid_m-columns_12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.grid__fraction_m-col_4 {
+  grid-column: span 4;
+}
+.grid__fraction_m-col_8 {
+  grid-column: span 8;
+}
+.grid_col-gap_half {
+  grid-column-gap: 13.5px;
+}
+.grid_row-gap_half {
+  grid-row-gap: 13.5px;
+}
+.grid_m-columns_10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+.grid__fraction_m-col_2 {
+  grid-column: span 2;
+}
+
+.grid__fraction_m-col_5 {
+  grid-column: span 5;
+}
+
+.layout__container_size_m {
+  max-width: 1280px;
+}
+.layout__container_align_center {
+  margin: 0 auto;
+}
+
+.section_indent-b_xxl {
+  margin-bottom: 36px;
+}
+
+/* payment - блок платёжной системы */
+.payment {
+  /* border-width: 3px; */
+}
+.payment__content {
+  display: flex;
+  flex-direction: column;
+}
+.form__item {
+  display: flex;
+}
+.form_border_all {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+.form_view_default {
+  /* background-color: #FFFFFF; */
+}
+
+.form__item_space-v_l {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.form__item_space-h_xl {
+  padding-left: 27px;
+  padding-right: 27px;
+}
+.form__item_border_bottom {
+  border-bottom: 3px solid black;
+}
+.form__item_space-v_xxxl {
+  padding-top: 45px;
+  padding-bottom: calc(45px - 27px);
+}
+.form__item_distribute_between {
+  /* flex-direction: row; */
+}
+.form__item_vertical-align_center {
+  align-items: center;
+}
+.form__item_indent-b_xl {
+  padding-bottom: 27px;
+}
+.form__label_width_default {
+  width: 35%;
+}
+.form__control {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+}
+.input {
+  width: 100%;
+}
+.payment .text_view_primary .text__word {
+  background-color: black;
+}
+
+.text_size_xxl .text__word {
+  height: 16px;
+}
+.text_size_xxl .text__word_width_l {
+  width: 184px;
+}
+
+.form__control > .button_size_l {
+  height: 42px;
+  width: 200px;
+  background-color: #ffcc00;
+}
+.input_size_l {
+  height: 42px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+.text_size_l .text__word_width_l {
+  width: 138px;
+  height: 11px;
+}
+
+/* payment - блок платёжной системы */
+
+/* warning — блок предупреждения */
+
+.warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 335px;
+  padding: 5px;
+}
+.warning__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.informer_view_default {
+}
+.informer_border_all {
+  /* border-width: 3px;
+    border-style: solid;
+    border-color:#ff3333; */
+}
+.informer__content_distribute_center {
+}
+.informer__content_space-a_xxl {
+  padding: 36px;
+}
+.informer__action_space-a_xl {
+  padding: 27px;
+}
+.text__word {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+.text {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text_align_center {
+  justify-content: center;
+}
+.warning .text_view_primary .text__word {
+  background-color: #ffffff;
+}
+.placeholder_view_primary {
+  background-color: #ffffff;
+}
+.placeholder {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.placeholder_size_m {
+  height: 72px;
+  width: 72px;
+}
+.warning__button-wrapper .button_size_l {
+  height: 42px;
+  width: 200px;
+}
+.warning__button-wrapper .button {
+  background-color: #ffffff;
+}
+.text_size_xl .text__word_width_l {
+  width: 154px;
+  height: 13px;
+}
+.text_size_xl .text__word_width_m {
+  width: 74px;
+  height: 13px;
+}
+.text_size_xl .text__word_width_s {
+  width: 32px;
+  height: 13px;
+}
+
+/* warning — блок предупреждения */
+
+/* product - блок продукта */
+.product {
+  min-height: 300px;
+  border-width: 3px;
+}
+
+.product .card_view_default {
+  background-color: #ffffff;
+}
+.card_border_all {
+  border-style: solid;
+  border-color: black;
+}
+.card__content_space-a_m {
+  padding: 18px;
+}
+.card__footer_space-a_m {
+  padding: 18px;
+}
+.image {
+  background: url("image-placeholder-inverse.svg") no-repeat;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  height: 160px;
+  background-position: center;
+}
+.text_size_m .text__word_width_l {
+  width: 114px;
+  height: 10px;
+}
+.text_size_s .text__word_width_m {
+  width: 48px;
+  height: 8px;
+}
+.product .text_view_primary .text__word {
+  background-color: black;
+}
+/* product - блок продукта */
+
+/* history - блок истории операций */
+.history {
+  border: solid black 3px;
+}
+
+.list__item_border_bottom:not(:last-child) {
+  border-bottom: solid black 3px;
+}
+.list__item_space-a_m {
+  padding: 18px;
+}
+/* .list__item{
+    display: flex;
+    
+} */
+.list__item_vertical-align_center {
+  align-items: center;
+  justify-content: space-between;
+}
+.list__item_indent-t_m {
+  /*  margin-top: 18px; */
+}
+.icon-plus {
+  /*  display: flex; */
+}
+
+.icon-plus__icon {
+  display: flex;
+}
+.icon-plus__icon_indent-r_s {
+  margin-right: 15px;
+}
+.icon-plus__icon_indent-l_l {
+  margin-left: 24px;
+}
+.icon-plus__block {
+  display: flex;
+}
+.list__item_indent-b_m {
+  margin-bottom: 18px;
+}
+.list__item_distribute_between {
+  flex-direction: row;
+}
+.list__item_indent-b_l {
+  margin-bottom: 24px;
+}
+.text_view_ghost .text__word {
+  background-color: #c2c2c2;
+}
+.text_size_l .text__word_width_m {
+  width: 68px;
+  height: 11px;
+}
+.brand-logo_size_m {
+  height: 60px;
+  width: 60px;
+}
+.brand-logo_name_blue {
+  background-color: #5dcdf9;
+}
+.brand-logo_name_green {
+  background-color: #23b324;
+}
+.brand-logo_name_red {
+  background-color: #ff3333;
+}
+.brand-logo_name_purple {
+  background-color: #c62cff;
+}
+
+.history__show {
+  display: flex;
+}
+.history__quantity {
+}
+.history__details {
+  display: flex;
+}
+.history__time {
+  display: flex;
+  flex-direction: column;
+}
+
+.history__destination {
+  display: flex;
+  align-items: center;
+}
+
+.history .text_view_primary .text__word {
+  background-color: black;
+}
+.history__hide {
+  display: none;
+}
+/* history - блок истории операций */
+
+/* event - блок события */
+.event {
+  min-height: 400px;
+}
+/* .event .card_view_default {
+    background-color:#000000;
+ } */
+
+.event__content {
+  display: flex;
+  flex-direction: column;
+}
+.card__content_vertical-align_center {
+  align-items: center;
+}
+.card__content_distribute_center {
+  display: flex;
+}
+
+.card__content_space-a_xxxl {
+  padding: 45px;
+}
+.event__footer {
+  display: flex;
+  justify-content: center;
+}
+.card__footer_vertical-align_center {
+  align-items: center;
+}
+.card__footer_distribute_center {
+  display: flex;
+}
+.card__footer_space-a_xxl {
+  /* padding: 36px; */
+}
+.event .text_view_primary .text__word {
+  background-color: white;
+}
+.text_view_link .text__word {
+  background-color: #0077ff;
+}
+.avatar_size_m {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+}
+.event__preview {
+  display: flex;
+  margin-bottom: 36px;
+}
+.avatar {
+  margin-right: 9px;
+}
+.event__title {
+  margin-bottom: 15px;
+}
+
+/* event - блок события */
+
+/*header*/
+/*Исходные стили
+значения вертикальных отступов: xxxl — вертикальный, --gap горизонтальный;
+к краю экрана не прилипает;
+фиксированная ширину логотипа — 179px, высота — 34px, цвет соответствует цвету основного текста;
+максимальная ширина контента внутри блока — 1280px.*/
+/* .page {
+    display: flex;
+    flex-direction: column;
+} */
+.header {
+  /* display: flex; */
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 27px;
+  margin-right: 27px;
+
+  /*  justify-content: center; */
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__logo {
+  width: 179px;
+  height: 34px;
+  background-color: black;
+}
+
+.onoffswitch {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2px;
+  width: 97px;
+  height: 32px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+.onoffswitch__button {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  align-self: center;
+}
+
+/*header*/
+
+/*footer*/
+.footer {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .text_view_primary .text__word {
+  background-color: black;
+}
+
+/*footer*/
